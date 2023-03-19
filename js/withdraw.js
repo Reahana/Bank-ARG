@@ -9,4 +9,7 @@ function(){
     const previousBalanceTotal = getTextElementValueById('balanceTotal');
     const currentBalanceTotal = previousBalanceTotal - newWithdrawAmount;
     setTextElementValueById('balanceTotal',currentBalanceTotal);
+   
+
+    
 })
